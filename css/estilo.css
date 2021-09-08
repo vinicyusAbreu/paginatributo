@@ -1,0 +1,141 @@
+*{
+	font-family: arial;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+	
+}
+.topo{
+	display: block;
+	width: 1200px;
+	height: 800px;
+	background-color: #cb4646;
+	margin: auto;
+	border: 3px solid black;
+}
+.nome{
+ 	text-shadow:#000 -1px -1px;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 15px;
+	color: #f2f2f2;
+}
+.desc{
+	text-shadow:#000 -1px -1px;
+	text-align: center;
+	font-size: 30px;
+	color: #f2f2f2;
+	margin-bottom: 10px;
+}
+.imagem img{
+	border: 6px solid black;
+	width: 630px;
+	height: 370px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.data{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+.paragrafo{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+.paragrafo span{
+	color: #ffff00;
+	font-weight: bold; 
+	text-shadow:#000 1px 1px 1px ;
+}
+.gambiarra p {
+	margin: 3px;
+}
+.galeria{
+	width: 1200px;
+	height: 580px;
+	background-color:#ffa31a;
+	margin: auto;
+	border: 3px solid black;
+}
+.container{
+	display: flex;
+}
+
+.container div{
+	flex: 1;
+	padding: 10px;
+	margin: 10px;
+}
+.container img{
+	width: 340px;
+	height: 400px;
+	border: 2px solid white;
+}
+.timeline{
+	width: 1200px;
+	height: 420px;
+	background-color: #2eb82e;
+	margin: auto;
+	border: 3px solid black;
+}
+.timeline .desc{
+	padding: 50px;
+}
+.item{
+	display: flex;
+	flex-flow: column nowrap;
+}
+.item1{
+    background-color: #FFF;
+    color: #484F90;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 50%;
+    font-size: .9em;
+    font-weight: bold;
+    text-align: left;
+}
+.item1 span{
+	background-color: #E09809;
+	padding: 8px;
+	line-height:14.4px;
+}
+footer{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	background-color: #666699;
+	border: 3px solid black;
+}
+.rodapé{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+}
+.rodapé a{
+	text-decoration: none;
+	color: white;
+}
+.rodapé a:hover{
+	color: #ffa31a;
+}
+.copy{
+font-size: 12px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+}
